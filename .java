@@ -1,9 +1,17 @@
-// Stage 1: Hardcoded
-public class WeatherModelStage1 {
+import java.util.Scanner;
+
+public class WeatherModelStage2 {
     public static void main(String[] args) {
-        double a = 1;
-        double b = -3;
-        double c = 2;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a: ");
+        double a = sc.nextDouble();
+
+        System.out.print("Enter b: ");
+        double b = sc.nextDouble();
+
+        System.out.print("Enter c: ");
+        double c = sc.nextDouble();
 
         double discriminant = b * b - 4 * a * c;
 
